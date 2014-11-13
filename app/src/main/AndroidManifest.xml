@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edgargonzalez.practica1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.edgargonzalez.practica1.Practica1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.edgargonzalez.practica1.View1"
+            android:label="@string/title_activity_view1" >
+        </activity>
+        <activity
+            android:name="com.example.edgargonzalez.practica1.View2"
+            android:label="@string/title_activity_view2" >
+        </activity>
+        <activity
+            android:name="com.example.edgargonzalez.practica1.View3"
+            android:label="@string/title_activity_view3" >
+        </activity>
+        <activity
+            android:name="com.example.edgargonzalez.practica1.View4"
+            android:label="@string/title_activity_view4" >
+        </activity>
+    </application>
+
+</manifest>
